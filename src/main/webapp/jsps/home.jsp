@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Merciboi - Home Page</title>
+<title>Cybage - Home Page</title>
 <link href="images/logo2.png" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to the Merciboi Systems Solutions.</h1>
+<h1 align="center">Welcome to the Cybage Software Pvt Ltd</h1>
 <h2 align="center">This is a test application!</h2>
 <h2 align="center">Congratulations for getting to this point. It means your resilience has paid off.
 	Keep working!</h2>
