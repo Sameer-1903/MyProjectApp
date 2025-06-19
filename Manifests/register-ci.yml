@@ -1,0 +1,14 @@
+- hosts: ansible
+
+  tasks:
+  - name: create docker image
+    command: docker build -t register:latest .
+    args:
+      chdir: /home/ansadmin/opt/docker
+    become: yes
+
+  - name: create tag to push image onto dockerhub
+    command: docker tag register:latest sameer1903/register:latest
+
+  - name: push docker image
+    command: docker push sameer1903/register:latest

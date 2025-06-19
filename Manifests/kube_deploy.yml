@@ -3,10 +3,10 @@
 
   tasks:
     - name: deploy regapp on kubernetes
-      command: kubectl apply -f myapp-deployment.yml
+      command: kubectl apply -f register-deployment.yml
 
     - name: create service for regapp
-      command: kubectl apply -f myapp-service.yml
+      command: kubectl apply -f register-service.yml
 
     - name: update deployment with new pods if image updated in docker hub
-      command: kubectl rollout restart deployment.apps/merciboi-myapp
+      command: kubectl rollout restart deployment.apps/sameer1903-registerapp 

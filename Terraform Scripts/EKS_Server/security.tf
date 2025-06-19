@@ -16,8 +16,6 @@ resource "aws_security_group" "web-traffic" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-
   tags = {
-    "Name" = "My_SG333"
-  }
-}
+    "Name" = "My_SG3"
+  

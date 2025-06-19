@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: merciboi-service
+  name: sameer1903-service
   labels:
-    app: myapp 
+    app: register
 spec:
   selector:
-    app: myapp 
+    app: register
 
   ports:
     - port: 8080
